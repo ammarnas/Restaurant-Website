@@ -215,3 +215,31 @@ header {
     padding: 7px 10px;
     border-radius: 0 0.5rem;
 }
+
+/* Services */
+
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px, auto));
+    grid-gap: 1.5rem;
+    margin-top: 4rem;
+}
+
+.service-box {
+    text-align: center;
+    padding: 20px 30px;
+}
+
+.service-box img {
+    width: 90px ;
+}
+
+.service-box h3 {
+    margin: 4px 0 10px;
+    color: var(--main-color);
+    font-size: 1.2rem;
+}
+
+.service-box p {
+    line-height: 1.7;
+}
