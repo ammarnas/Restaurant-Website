@@ -12,7 +12,7 @@
     --main-color: #ff702a;
     --text-color: #fff;
     --bg-color: #1e1c2a;
-    --big-font: 5rem;
+    --big-font: 4rem;
     --h2-text: 2.25rem;
     --p-text: 0.9rem;
 }
@@ -26,6 +26,12 @@ body {
     color: var(--text-color);
     background: var(--bg-color);
 }
+
+section {
+    padding: 70px 17%;
+}
+
+/* Navbar */
 
 header {
     position: fixed;
@@ -66,4 +72,44 @@ header {
     font-size: 2rem;
     cursor: pointer;
     display: none;
+}
+
+/* Home */
+
+.home {
+    width: 100%;
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+
+.home-img img {
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+}
+
+.home-text h1 {
+    font-size: var(--big-font);
+    color: var(--main-color);
+}
+
+.home-text h2 {
+    font-size: var(--h2-text);
+    margin: 1rem 0 2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: var(--main-color);
+    color: #fff;
+    border-radius: 0.5rem;
+    transition: all .4s;
+}
+
+.btn:hover {
+    transform: scale(1.1) translateY(10px);
 }
