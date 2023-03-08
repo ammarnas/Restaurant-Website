@@ -243,3 +243,20 @@ header {
 .service-box p {
     line-height: 1.7;
 }
+
+/* call to action */
+
+.cta {
+    background: #fddfd2;
+    padding: 70px;
+    text-align: center;
+    width: 66%;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+
+.cta h2 {
+    font-size: 2rem;
+    color: var(--bg-color);
+    margin-bottom: 30px;
+} 
